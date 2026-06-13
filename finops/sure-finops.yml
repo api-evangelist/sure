@@ -1,0 +1,71 @@
+name: Sure FinOps
+description: >-
+  Financial operations considerations for integrating with Sure's embedded
+  insurance platform. Sure operates on a custom enterprise pricing model with
+  no publicly listed tiers. Cost drivers include program volume, number of AI
+  modules deployed, states of operation, policy types, and integration
+  complexity. Payments infrastructure charges are separate from platform
+  licensing.
+url: https://www.sureapp.com/solutions/platform/overview
+created: '2026-06-13'
+modified: '2026-06-13'
+costDrivers:
+  - name: Platform Licensing
+    description: >-
+      Enterprise SaaS license for access to Sure's AI platform modules.
+      Priced based on program scope, number of active modules, and
+      policy volume. Negotiated directly with Sure's sales team.
+    type: Subscription
+    pricing: Custom Enterprise
+  - name: Transaction Volume
+    description: >-
+      Costs may scale with the number of policies bound, claims processed,
+      or payments transacted depending on contract structure.
+    type: Usage-based
+    pricing: Volume-tiered, contract-defined
+  - name: Payment Processing
+    description: >-
+      The Payments AI module handles card, ACH, bank rail, and
+      pay-with-escrow transactions. Payment processing fees follow
+      standard industry rates and are governed by the platform's
+      enterprise-grade payment infrastructure with 99.99% uptime.
+    type: Per-transaction
+    pricing: Standard payment processing rates apply
+  - name: Integration and Onboarding
+    description: >-
+      Sure provides a dedicated integrations team for onboarding. Initial
+      integration costs depend on whether the Connect (pre-built) or
+      Platform (custom) approach is used. Connect reduces integration
+      time and cost; Platform enables full customization.
+    type: One-time / Professional Services
+    pricing: Contract-defined
+  - name: Sandbox / Development Environment
+    description: >-
+      A sandbox environment is available for development and testing.
+      Access to the sandbox is part of the platform engagement; specific
+      sandbox pricing is not publicly documented.
+    type: Development
+    pricing: Included with platform engagement
+optimizationTips:
+  - Use the Connect pre-built solution for faster time-to-market and lower
+    integration cost when customization is not required.
+  - Leverage the Rating AI's Model Context Protocol integration to reduce
+    manual rating operations overhead.
+  - The 90% zero-touch claims automation reduces operational labor costs
+    for claims processing at scale.
+  - Consolidating multiple insurance products on a single platform avoids
+    multi-vendor overhead and integration complexity.
+  - Negotiate volume pricing thresholds upfront based on projected policy
+    counts and transaction volume.
+budgetingNotes:
+  - Sure does not publish public pricing; all costs are determined through
+    direct sales engagement.
+  - Contact the sales team at sureapp.com/contact or call (844) 335-5441
+    to obtain a quote.
+  - Consider total cost of ownership including carrier integration costs,
+    state filing fees, and compliance costs alongside platform licensing.
+contact:
+  - type: Sales
+    url: https://www.sureapp.com/contact
+  - type: Phone
+    value: (844) 335-5441

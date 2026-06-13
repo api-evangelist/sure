@@ -1,0 +1,69 @@
+aid: sure
+name: Sure
+description: >-
+  Sure is an embedded insurance platform providing purpose-built REST APIs for
+  distributing insurance products through digital channels. The platform enables
+  brands, carriers, MGAs, and marketplaces to build, launch, and scale digital
+  insurance programs covering quoting, binding, policy management, claims
+  processing, payments, and compliance workflows across all 50 US states.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/sure/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Insurance
+  - Embedded Insurance
+  - Insurtech
+  - Policy Management
+  - Claims
+  - Payments
+  - Compliance
+apis:
+  - name: Sure Platform API
+    description: >-
+      REST APIs for the full embedded insurance lifecycle including quoting,
+      rating, binding, policy management, claims intake through settlement,
+      premium payments (card, ACH, bank rail, escrow), and compliance
+      monitoring. Delivers 240ms median quote-to-bind latency and 99.9% uptime
+      SLA across 40+ active programs in 50 states and DC.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.sureapp.com/solutions/platform/apis
+    baseURL: https://api.sureapp.com
+    tags:
+      - Insurance API
+      - Quote and Bind
+      - Policy Management
+      - Claims
+      - Payments
+    properties:
+      - type: Documentation
+        url: https://www.sureapp.com/solutions/platform/apis
+      - type: OpenAPI
+        url: https://api.sureapp.com/
+common:
+  - type: Website
+    url: https://www.sureapp.com
+  - type: Documentation
+    url: https://www.sureapp.com/solutions/platform/apis
+  - type: GitHubOrg
+    url: https://github.com/sureapp
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sure-insurance
+  - type: Blog
+    url: https://www.sureapp.com/resources/blog
+  - type: Pricing
+    url: https://www.sureapp.com/contact
+  - type: StatusPage
+    url: https://www.sureapp.com/solutions/platform/apis
+  - type: X
+    url: https://x.com/surehq
+  - type: Plans
+    url: plans/sure-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/sure-rate-limits.yml
+  - type: FinOps
+    url: finops/sure-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

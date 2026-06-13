@@ -1,0 +1,54 @@
+name: Sure API Rate Limits
+description: >-
+  Sure does not publicly publish specific API rate limit thresholds. Rate limits
+  are determined at the enterprise contract level based on program volume and
+  integration tier. The platform is built for high-throughput insurance
+  operations and publishes a 99.9% uptime SLA with 240ms median quote-to-bind
+  latency. Contact Sure directly to confirm rate limit details for your
+  integration.
+url: https://www.sureapp.com/solutions/platform/apis
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Platform Uptime SLA
+    description: >-
+      Sure guarantees 99.9% uptime across all platform API endpoints including
+      quoting, binding, policy management, claims, and payments.
+    type: Availability
+    value: '99.9%'
+    scope: Platform-wide
+  - name: Quote-to-Bind Latency
+    description: >-
+      Median latency for end-to-end quote and bind operations across all active
+      raters on the platform.
+    type: Performance
+    value: 240ms p50
+    scope: Underwriting AI / Rating API
+  - name: Claims Automation Rate
+    description: >-
+      Percentage of eligible claims that close with zero human touch through the
+      Claims AI module.
+    type: Throughput
+    value: 90%
+    scope: Claims AI
+  - name: API Request Limits
+    description: >-
+      Specific request-per-second and daily/monthly quotas are negotiated at
+      contract level. No publicly documented limits are available. Developers
+      should contact Sure to obtain rate limit details for their specific
+      program.
+    type: RequestLimits
+    value: Contract-defined
+    scope: All API endpoints
+notes:
+  - Sure provides a sandbox environment for development and testing separate
+    from production limits.
+  - A status page is referenced in their developer documentation; check
+    sureapp.com for current service status.
+  - Authentication uses OAuth and identity protocols per OpenAPI/Swagger
+    specification.
+contact:
+  - type: Developer Support
+    url: https://www.sureapp.com/contact
+  - type: Support Email
+    email: support@sureapp.com

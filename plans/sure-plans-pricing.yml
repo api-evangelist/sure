@@ -1,0 +1,53 @@
+name: Sure Plans and Pricing
+description: >-
+  Sure offers enterprise-grade embedded insurance infrastructure with custom
+  pricing tailored to program size, product lines, and integration scope.
+  Pricing is not publicly listed and is negotiated directly based on business
+  requirements, volume, and the specific AI modules deployed.
+url: https://www.sureapp.com/contact
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Connect
+    description: >-
+      Out-of-the-box instant digital insurance for brands wanting to embed a
+      pre-built insurance experience into their digital properties without
+      building from scratch. Includes pre-integrated carriers, products, and
+      compliance coverage.
+    url: https://www.sureapp.com/solutions/connect/overview
+    pricing: Custom / Contact Sales
+    features:
+      - Pre-built embedded insurance widget
+      - Hosted quote and bind flow
+      - Pre-integrated carrier partners
+      - 50-state compliance coverage
+      - Standard policy and claims management
+      - API and mobile embed options
+  - name: Platform
+    description: >-
+      Full-stack insurance technology platform for carriers, MGAs, and brands
+      building custom digital insurance programs. Access to the complete suite
+      of AI-powered modules with full API control over underwriting, rating,
+      claims, payments, and compliance.
+    url: https://www.sureapp.com/solutions/platform/overview
+    pricing: Custom Enterprise / Contact Sales
+    features:
+      - Underwriting AI - quote, rate, and bind API
+      - Rating AI with Model Context Protocol support
+      - Claims AI - FNOL through settlement automation
+      - Service AI - customer-facing policy management agents
+      - Launch AI - program setup and operational management
+      - Verify AI - tenant policy compliance monitoring
+      - Payments AI - card, ACH, bank rail, and pay-with-escrow
+      - 240ms p50 quote-to-bind latency
+      - 99.9% uptime SLA
+      - Webhooks for event-based callbacks
+      - Sandbox environment for development and testing
+      - Dedicated integrations team support
+contact:
+  - type: Sales
+    url: https://www.sureapp.com/contact
+  - type: Support
+    email: support@sureapp.com
+  - type: Phone
+    value: (844) 335-5441
