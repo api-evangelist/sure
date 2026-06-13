@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sure",
+  "url": "https://www.sureapp.com",
+  "description": "Sure is an embedded insurance platform providing purpose-built REST APIs for distributing insurance products through digital channels. The platform enables brands, carriers, MGAs, and marketplaces to build, launch, and scale digital insurance programs covering quoting, binding, policy management, claims processing, payments, and compliance workflows across all 50 US states.",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/sure-insurance",
+    "https://x.com/surehq",
+    "https://github.com/sureapp"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://www.sureapp.com/contact"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Sure Platform API",
+    "description": "REST APIs for the full embedded insurance lifecycle including quoting, rating, binding, policy management, claims intake through settlement, premium payments (card, ACH, bank rail, escrow), and compliance monitoring.",
+    "url": "https://www.sureapp.com/solutions/platform/apis"
+  },
+  "keywords": [
+    "Insurance",
+    "Embedded Insurance",
+    "Insurtech",
+    "Policy Management",
+    "Claims",
+    "Payments",
+    "Compliance",
+    "REST API"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  }
+}
