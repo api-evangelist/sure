@@ -4,7 +4,7 @@
   "name": "Sure",
   "url": "https://www.sureapp.com",
   "description": "Sure is an embedded insurance platform providing purpose-built REST APIs for distributing insurance products through digital channels. The platform enables brands, carriers, MGAs, and marketplaces to build, launch, and scale digital insurance programs covering quoting, binding, policy management, claims processing, payments, and compliance workflows across all 50 US states.",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://www.linkedin.com/company/sure-insurance",
     "https://x.com/surehq",

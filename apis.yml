@@ -6,7 +6,7 @@ description: >-
   brands, carriers, MGAs, and marketplaces to build, launch, and scale digital
   insurance programs covering quoting, binding, policy management, claims
   processing, payments, and compliance workflows across all 50 US states.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/sure/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -27,7 +27,7 @@ apis:
       premium payments (card, ACH, bank rail, escrow), and compliance
       monitoring. Delivers 240ms median quote-to-bind latency and 99.9% uptime
       SLA across 40+ active programs in 50 states and DC.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.sureapp.com/solutions/platform/apis
     baseURL: https://api.sureapp.com
     tags:
