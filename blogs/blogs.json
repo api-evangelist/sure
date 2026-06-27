@@ -3,17 +3,18 @@
   "url": "https://www.sureapp.com/resources/blog",
   "name": "Sure Newsroom",
   "description": "News, product updates, and insights from Sure, the embedded insurance platform.",
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T13:13:23Z",
   "posts": [],
   "repo": "sure",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/sure-insurance",
-      "feed_url": "https://www.linkedin.com/company/sure-insurance",
-      "title": "",
+      "source": "https://www.sureapp.com/resources/blog",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
+      "method": "agent-scrape",
+      "error": "JS-rendered listing; no static post links"
     }
   ],
-  "post_count": 0
+  "post_count": 0,
+  "agent_pulled": "2026-06-27"
 }
