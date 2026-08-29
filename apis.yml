@@ -6,6 +6,17 @@ description: >-
   brands, carriers, MGAs, and marketplaces to build, launch, and scale digital
   insurance programs covering quoting, binding, policy management, claims
   processing, payments, and compliance workflows across all 50 US states.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
